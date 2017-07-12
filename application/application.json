@@ -1,0 +1,33 @@
+{
+	"name":"MembersBlog",
+	"version":"1.4",
+	"slug":"membersblog",
+	"status":"release",
+	"wordpress":
+	{
+		"uri":"http://membersblog.dcoda.co.uk/",
+		"donate_link":"http://membersblog.dcoda.co.uk/donate/",
+		"short_desc":"Lock down all your posts and pages so only members can access them",
+		"tags":
+		[
+			"members",
+			"private",
+			"security",
+			"blog"
+		],
+		"wpslug":"members-blog",
+		"stable_tag":"1.4.46"
+	},
+	"help_meta":
+	{
+		"gettingstarted":
+		{
+			"url":"http://membersblog.dcoda.co.uk/help/"
+		},
+		"settings":
+		{
+			"url":"http://membersblog.dcoda.co.uk/help/settings/"
+		}
+	}
+
+}

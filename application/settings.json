@@ -1,0 +1,14 @@
+{
+	"options":
+	{
+		"public_home":0,
+		"landings":
+		{
+			"home":"/",
+			"login":"/wp-login.php?redirect_to=",
+			"other":""
+		},
+		"landing":"login",
+		"other":""
+	}
+}

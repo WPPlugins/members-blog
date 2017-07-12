@@ -1,0 +1,7 @@
+<th>Force Users to</th>
+<td>
+<ul>
+	<li><input type='radio' <?php checked($this->options['landing'],'home');?> name='options[landing]' <?php disabled($this->options['public_home'],0);?> value='home' id = 'homepage'><label for='homepage'>Homepage</label></li>
+	<li><input type='radio' <?php checked($this->options['landing'],'login');?> name='options[landing]' value='login' id = 'loginpage'><label for='loginpage'>Login</label></li>
+	<li><input type='radio' <?php checked($this->options['landing'],'other');?> name='options[landing]' value='other' id = 'otherpage'><label for='otherpage'>Other<input type='text' name='options[other]' value='<?php echo $this->options['other'];?> '/></label></li>
+</ul>
